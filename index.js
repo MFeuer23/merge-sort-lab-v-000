@@ -23,6 +23,6 @@ function mergeSort (array) {
     let mid = array.length/2
     let firstHalf = array.slice(0, mid)
     let secondHalf = array.slice(mid, array.length)
-    merge(firstHalf, secondHalf)
+    return merge(firstHalf, secondHalf)
   }
 }
