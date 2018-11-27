@@ -17,7 +17,7 @@ function merge (a1, a2) {
 }
 
 function mergeSort (array) {
-  if (array < 2) {
+  if (array.length < 2) {
     return array
   } else {
     let mid = array.length/2
