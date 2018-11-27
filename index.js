@@ -17,5 +17,12 @@ function merge (a1, a2) {
 }
 
 function mergeSort (array) {
-  
+  if (array < 2) {
+    return array
+  } else {
+    let mid = array.length/2
+    let firstHalf = array.split(0, mid)
+    let secondHalf = array.split(mid, array.length)
+    merge(firstHalf, secondHalf)
+  }
 }
