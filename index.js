@@ -15,3 +15,4 @@ function merge (a1, a2) {
   }
   return sorted.concat(a1).concat(a2)
 }
+
