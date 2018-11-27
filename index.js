@@ -1,4 +1,5 @@
 function findMinAndRemoveSorted(array) {
+  let min = array[0];
   array.shift();
-  return array[0];
+  return min;
 }
