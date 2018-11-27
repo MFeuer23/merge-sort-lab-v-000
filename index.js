@@ -9,7 +9,6 @@ function merge (a1, a2) {
   while (a1.length !== 0 && a2.length !==0) {
     if (a1[0] < a2[0]) {
       sorted.push(findMinAndRemoveSorted(a1))
-      console.log(a1)
     } else {
       sorted.push(findMinAndRemoveSorted(a2))
     }
